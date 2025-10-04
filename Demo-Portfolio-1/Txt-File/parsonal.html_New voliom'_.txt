@@ -1,0 +1,19 @@
+<div class="container">
+<section class="latest-work">
+<h2>My Latest Work</h2>
+<div class="work-gallery">
+<img src="work1.png" alt="Work 1">
+<img src="work2.png" alt="Work 2">
+<img src="work3.png" alt="Work 3">
+</div>
+</section>
+<section class="client-testimonial">
+<h2>What Client are say</h2>
+<p class="testimonial">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."</p>
+<p class="client-name">Bruce Henry</p>
+<a href="mailto:programming.henry@gmail.com" class="contact-email">programming.henry@gmail.com</a>
+</section>
+<footer>
+<p>Programming Henry © 2024, All rights reserved</p>
+</footer>
+</div>

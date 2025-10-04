@@ -1,0 +1,64 @@
+.container {
+width: 80%;
+margin: auto;
+text-align: center;
+padding: 20px;
+}
+
+.latest-work, .client-testimonial {
+margin-bottom: 40px;
+}
+
+h2 {
+font-size: 24px;
+color: #333;
+margin-bottom: 20px;
+}
+
+.work-gallery {
+display: flex;
+justify-content: space-around;
+}
+
+.work-gallery img {
+width: 30%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.client-testimonial {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial {
+font-style: italic;
+color: #555;
+margin-bottom: 10px;
+}
+
+.client-name {
+font-weight: bold;
+color: #333;
+margin-bottom: 20px;
+}
+
+.contact-email {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff4081;
+color: #fff;
+text-decoration: none;
+border-radius: 25px;
+}
+
+footer {
+margin-top: 40px;
+padding: 20px;
+background-color: #333;
+color: #fff;
+border-radius: 8px;
+}

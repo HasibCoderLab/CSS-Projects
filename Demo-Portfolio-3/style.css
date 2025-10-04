@@ -1,0 +1,45 @@
+body{
+
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    background-color:black;
+    color:#FF1493;
+    margin: 0px;
+    padding: 5px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+  font-size:20px;
+ 
+}
+h3{
+  margin-bottom: 0px;
+}
+.half-width{
+  width: 50%;
+  float: left;
+}
+img{
+  width:100%;
+}
+.link-buttton{
+  text-decoration: none;
+background-image: linear-gradient(45deg, 	#00FA9A,	#00BFFF, #32CD32);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size:20px;
+font-weight: 700px;
+}
+.half{
+  width: 50%;
+  float:left;
+}
+.half-width, .half{
+  margin-bottom: 80px;
+}

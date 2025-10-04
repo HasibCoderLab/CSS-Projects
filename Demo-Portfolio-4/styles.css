@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars from showing up */
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Scrolling Text */
+.scrolling-text {
+    font-size: 1.5em;
+    color: #00d1ff;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 3em;
+    color: #00d1ff;
+    margin-bottom: 0;
+}
+
+h1 span {
+    color: #fff;
+}
+
+/* Subheading Styles */
+h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #aaa;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #00d1ff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/* Button Styles */
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #00d1ff;
+    color: #0d0d0d;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00a3cc;
+}
+
+/* Contact Button */
+button.contact {
+    background-color: transparent;
+    border: 2px solid #00d1ff;
+    color: #00d1ff;
+}
+
+button.contact:hover {
+    background-color: #00d1ff;
+    color: #0d0d0d;
+}

@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    
+    font-family: "Noto Serif", serif;
+    margin: 0px;
+
+}
+
+
+h1{
+    font-size:50px;
+    color: rgb(228, 10, 46);
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+  }
+
+h2{
+    font-size: 40px;
+}
+
+p{
+
+    color: gray;
+}
+
+.half-width{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
+}
+.half-width img{
+     width:100%;
+}
+
+.background{
+    background-image: url(personal-website/header-bg.png);
+}
+ 
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+  }
+
+.link-buttoon{
+    text-decoration: none;
+    background-image:linear-gradient( 45deg, rgb(226, 19, 133) ,cyan);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700px;
+}
+
+.Biography{
+    background-image: url(personal-website/biography-bg.png);
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .latest-work, .client-testimonial {
+    margin-bottom: 40px;
+    }
+    
+    h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    .work-gallery {
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .work-gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .client-testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .testimonial {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+    }
+    
+    .client-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    .contact-email {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    }
+    
+    footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    }

@@ -1,0 +1,90 @@
+.contant{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.box {
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 1%;
+    width: 30%;
+}
+
+/* h3 {
+    text-align: center;
+} */
+
+
+
+#mid {
+    text-align: center;
+}
+
+
+@keyframes ol {
+    25% {
+        background-color: rgba(0, 255, 76, 0.587);
+        width: 25px;
+        height: 25px;
+    }
+
+    50% {
+        background-color: rgb(227, 9, 24);
+        width: 60%;
+        height: 300px;
+    }
+    75%{
+        background-color: rgb(7, 123, 232);
+        width: 80%;
+        height: 275px; 
+    }
+    100% {
+        background-color:rgba(238, 11, 219, 0.91);
+        width: 85%;
+        height: 300px;
+    }
+}
+
+ol {
+    width: 50px;
+    height: 200px;
+    animation-name: ol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.h1 {
+    color: hotpink;
+}
+
+h1:hover {
+    color: purple;
+
+    font-size: 30px;
+}
+
+li:nth-child(2n) {
+    background-color: rgba(8, 235, 95, 0.562);
+}
+
+li::before {
+    content: " Engineer ";
+}
+
+.img-box img{
+    width: 100%;
+    height: auto;
+}
+.img-box{
+   display:grid;
+   grid-template-columns: repeat(3,1fr); 
+   gap: 50px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

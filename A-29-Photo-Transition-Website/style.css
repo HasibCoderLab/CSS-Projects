@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* background-color: black; */
+
+
+}
+h1{
+     font-size:50px;
+}
+h1:hover{
+color: red;
+color: red;
+}
+.highlight{
+    color:orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-left: 2%;
+
+}
+img{
+width:100%;
+}
+  .Photo:hover .half-width img{
+    transform:rotate(360deg);
+    transition:  transform 7s ;
+    box-shadow: 50px 20px 40px rgb(248, 1, 236);
+  }
+
+  /* .Photo:hover{ 
+    /* box-shadow: 10px 20px 40px rgb(248, 1, 236); 
+  } 
+ */
+
+  .pic:hover{
+    box-shadow: 10px 20px 100px green;
+  } 
+ 
+ 
+
+.top-banner{
+    background-image: url(background/top-banner.png);
+background-repeat: no-repeat;    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(35deg,#648bdf,rgb(9, 202, 202));
+    border-radius: 7px;
+    padding:10px;
+    font-weight:40px;
+    font-size: 20px;
+    color: white;
+}
+.drem-area{
+    background-image: url(background/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+ 
+ .half-width .pic:hover  img{
+    transform: scale(1.5);
+    transition:  transform 5s;
+
+}
+.pic{
+    /* border: 10px solid rgba(250, 250, 250, 0.911); */
+    overflow: hidden;
+   
+}
+
+
+.half-width .box:hover  img{
+    transform: scale(1.5);
+    transition:  transform 5s;
+   
+
+}
+.box{
+    overflow: hidden; 
+   
+}
+.box:hover{
+    box-shadow: 20px 40px 80px #ff009d
+}
+
+ .boxx:hover  img{
+    transform: scale(1.5);
+    transition:  transform 5s;   
+} 
+
+ .boxx:hover  img{
+
+box-shadow: 20px 40px 80px aqua;
+
+ }
+ .box, .boxx img{
+width: 100%;
+display: flex;
+ }
+.exparience-area{
+    background-image: url(background/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+.mod{
+    text-align: center;
+}
+
+
+.single{
+box-shadow: 10px 20px 40px gray ;
+height:80%;
+background-color: white;
+border-radius: 15px;
+}
+#full{
+    border-left: 7px solid;
+border-image:linear-gradient(180deg,#0400e9dc,#d841b2e1 );
+    border-image-slice: 1;
+}
+#baby{
+   
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,rgb(112, 238, 238),#ac249a );
+        border-image-slice: 1;
+        
+}
+
+footer{ 
+    text-align:center;  
+   color:green;
+    margin-top: 55px; 
+  
+    font-size: 25px; 
+
+
+ } 
+  
+
+
+
+

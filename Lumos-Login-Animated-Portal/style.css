@@ -1,0 +1,175 @@
+/* Root Variables for Theme Colors */
+:root {
+    --bg-color: #23242a;
+    --text-color: #fff;
+    --box-bg-color: #1c1c1c;
+    --border-color: #8f8f8f;
+    --focus-color: #45f3ff;
+    --btn-bg-color: #45f3ff;
+    --btn-hover-color: #238fbd;
+    --link-color: #8f8f8f;
+}
+
+/* Light Theme Variables */
+body.light-theme {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --box-bg-color: #fff;
+    --border-color: #ccc;
+    --focus-color: #007bff;
+    --btn-bg-color: #007bff;
+    --btn-hover-color: #0056b3;
+    --link-color: #007bff;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    padding: 20px;
+    background: var(--box-bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+/* Border Animation */
+.border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(45deg, var(--focus-color), transparent);
+    background-size: 200% 200%;
+    animation: borderMove 5s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+}
+
+@keyframes borderMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 200%;
+    }
+}
+
+.box form {
+    position: relative;
+    z-index: 2;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.inputbox {
+    position: relative;
+    margin: 20px 0;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    font-size: 1rem;
+}
+
+.inputbox input:focus {
+    border-color: var(--focus-color);
+}
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: var(--text-color);
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.inputbox input:focus ~ span,
+.inputbox input:not(:placeholder-shown) ~ span {
+    bottom: 30px;
+    font-size: 0.8rem;
+    color: var(--focus-color);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: var(--btn-bg-color);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: var(--btn-hover-color);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+}
+
+.links a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: var(--focus-color);
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-toggle button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
